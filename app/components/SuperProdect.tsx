@@ -64,7 +64,7 @@ const SuperProduct = () => {
 
           {/* Color Selection */}
           <div className="flex gap-4">
-            {Object.entries(product.colors).map(([color, _]) => (
+            {Object.entries(product.colors).map(([color, ]) => (
               <button
                 key={color}
                 className={`w-8 h-8 rounded-full transition ${

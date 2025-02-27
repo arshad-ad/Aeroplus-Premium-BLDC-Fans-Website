@@ -2,6 +2,7 @@
 
 import { Star } from "lucide-react";
 import { products } from "../data";
+import Image from "next/image";
 
 const ProductCard = () => {
   return (
@@ -11,11 +12,15 @@ const ProductCard = () => {
           key={product.id}
           className="max-w-sm text-white rounded-xl shadow-lg overflow-hidden p-5 border border-[#212525]"
         >
-          <img
+         <div className=" w-full h-48 relative">
+         <Image
             src={product.image}
             alt={product.name}
-            className="w-full h-48 object-cover rounded-lg"
+            fill
+            className=" object-cover rounded-lg"
+            
           />
+         </div>
 
           <div className="mt-4">
             <h3 className="text-2xl font-semibold">{product.name}</h3>

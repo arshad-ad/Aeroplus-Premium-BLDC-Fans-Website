@@ -22,7 +22,7 @@ export default function ContactSection() {
         {/* Contact Info */}
         <div>
           <h2 className='text-4xl font-bold mb-6 text-white'>Get in Touch</h2>
-          <p className='text-gray-400 mb-6'>We'd love to hear from you! Reach out with any inquiries or feedback.</p>
+          <p className='text-gray-400 mb-6'>We d love to hear from you! Reach out with any inquiries or feedback.</p>
           <div className='space-y-4'>
             <div className='flex items-center gap-3'>
               <Phone className='text-blue-400' />
