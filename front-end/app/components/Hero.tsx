@@ -12,7 +12,7 @@ const Hero = () => {
               className="font-medium text-3xl sm:text-2xl md:text-5xl leading-tight"
             />
             <p className="text-base sm:text-lg font-extralight tracking-wider">
-              Experience high-performance, energy-efficient fans designed for
+              Experience  high-performance,  energy-efficient fans designed for
               your home and office.
             </p>
           </div>
