@@ -11,9 +11,9 @@ export function Features() {
   return (
     <div className="w-full h-full py-20 font-poppins">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-light text-white dark:text-neutral-200 opacity-70 ">
-        Why BLDC
+      Why Choose BLDC Fans?
       </h2>
-      <Carousel items={<>{cards}</>}  />
+      <Carousel items={cards} />
     </div>
   );
 }
