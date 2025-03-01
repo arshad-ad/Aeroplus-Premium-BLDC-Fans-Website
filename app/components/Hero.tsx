@@ -44,10 +44,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right Section (Add Image or Content Here) */}
-        <div className="flex p-6 md:p-8 justify-center md:justify-end w-full md:w-1/2">
-          {/* Add image or any other content here */}
-        </div>
       </div>
     </div>
   );

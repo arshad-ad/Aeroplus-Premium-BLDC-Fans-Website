@@ -3,8 +3,8 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div className=' flex justify-end items-center font-poppins z-0 w-full  p-5 rounded-2xl text-gray-500'>
-     
+    <div className=' flex justify-end items-center font-poppins z-0 w-full  p-5 rounded-2xl text-gray-500' id='about'>
+      
         
             <div className=' heading selection: flex flex-col  justify-end  sm:w-1/2 '>
                 <p className=' text-[#21e065]'>about us</p>
@@ -20,6 +20,7 @@ Driven by innovation and customer satisfaction, we continuously push the boundar
             </div>
 
             </div>
+            
 
         
     </div>

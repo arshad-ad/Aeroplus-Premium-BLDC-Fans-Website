@@ -17,7 +17,7 @@ export default function ContactSection() {
 //   };
 
   return (
-    <section className=' text-white py-16 px-4 md:px-10'>
+    <section className=' text-white py-16 px-4 md:px-10' id='contact'>
       <div className='max-w-6xl mx-auto grid md:grid-cols-2 gap-10'>
         {/* Contact Info */}
         <div>
